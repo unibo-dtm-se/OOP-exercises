@@ -21,3 +21,10 @@ Write a Python program to create a class representing a stack data structure. In
 
 ## Exercise 7
 Write a Python program to create a class representing a bank. Include methods for managing customer accounts and transactions.
+
+## Exercise 8
+Design a system for a library that manages different types of items available for borrowing. Each item in the library has some common attributes, such as a title, a creator (like an author or director), a publication year, and a unique identifier. All items should also have a way to display their details.
+
+Within the library, there are different types of items (e.g., books and DVDs), each with its own unique characteristics. Some might have information about the number of pages, while others could include details like duration or content rating. These specific characteristics should be added while still maintaining the shared structure that all library items have in common.
+
+In addition to storing and displaying information, the system should allow users to borrow and return items. Once borrowed, an item should be marked as unavailable, and when returned, it should become available again.
